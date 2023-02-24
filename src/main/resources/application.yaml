@@ -1,0 +1,10 @@
+telegram:
+  host: https://api.telegram.org
+  token: ${TLG_BOT_TOKEN}
+  chatId: ${TLG_CHAT_ID}
+union-pay:
+  url: https://www.unionpayintl.com/upload/jfimg
+cbrf:
+  url: http://www.cbr.ru/DailyInfoWebServ/DailyInfo.asmx
+cron:
+  expression: 0 0 12,15,19 ? * *
